@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+html,body {
+    width: 100%;
+    height: 100vh;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+}
+
+#back {
+    width: 100%;
+    height: 100vh;
+}
+
+#back img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#top {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#workingarea {
+    position: relative;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1920px;
+    height: 100vh;
+}
+
+#nav {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#n-left img {
+    width: 200px;
+}
+
+#n-left, #n-right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+#nav a {
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#hero {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+#herol {
+    min-width: 50%;
+    margin-top: 16%;
+}
+
+#herol #text1 {
+    position: relative;
+    height: 6.5vw;
+    overflow: hidden;
+}
+
+#herol #text1 h1:nth-child(1){
+    top: 0;
+}
+
+#herol #text1 h1 {
+    position: absolute;
+    top: 100%;
+    font-family: 'Amarante','Akronim', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 5vw;
+}
+
+#herol #text2 {
+    position: relative;
+    height: 6.5vw;
+    overflow: hidden;
+}
+
+#herol #text2 h1:nth-child(1){
+    top: 0;
+}
+
+#herol #text2 h1 {
+    position: absolute;
+    top: 100%;
+    font-family: 'Amarante','Akronim', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 5vw;
+}
+
+#herol #button {
+    pointer-events: all;
+    width: 40%;
+    height: 50px;
+    padding-left: 50px;
+    font-size: 40px;
+    color: white;
+    margin-top: 1vw;
+    background-color: black;
+    font-family: 'Amarante','Akronim', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#button a {
+    text-decoration: none;
+    color: white;
+}
+
+#heror {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 20%;
+    margin-top: 100px;
+}
+
+#div1 {
+    position: relative;
+    height: 22px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#div1 p:nth-child(1) {
+    top: 0;
+}
+
+#div1 p{
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+#heror p {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: right; 
+    color: white;
+}
+
+#heror #imgdiv {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 170px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#imgdiv img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    border-radius: 5%;
+}
+
+#imgdiv img:nth-child(1) {
+    top: 0;
+}
+
+#heror #div2 {
+    margin-bottom: 20px;
+}
+
+#div2 {
+    position: relative;
+    height: 270px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#div2 p:nth-child(1) {
+    top: 0;
+}
+
+#div2 p{
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+#div3 {
+    position: relative;
+    height: 240px;
+    overflow: hidden;
+    width: 100%;
+}
+
+#div3 p:nth-child(1) {
+    top: 0;
+}
+
+#div3 p{
+    position: absolute;
+    top: 100%;
+    right: 0;
+}
+
+#footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 80%;
+    height: 50px;
+    font-family: 'Amarante','Akronim', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#footer .footer-socials {
+    pointer-events: all;
+}
+
+#footer img {
+    max-width: 130px;
+    padding: 0 1.5em;
+}
