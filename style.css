@@ -124,10 +124,10 @@ html,body {
 
 #herol #button {
     pointer-events: all;
-    width: 40%;
-    height: 50px;
+    width: 35%;
+    height: 40px;
     padding-left: 50px;
-    font-size: 40px;
+    font-size: 30px;
     color: white;
     margin-top: 1vw;
     background-color: black;
