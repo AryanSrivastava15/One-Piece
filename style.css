@@ -511,16 +511,3 @@ body {
         padding: 0 1.5em;
     }    
 }
-
-@media only screen and (max-width: 768px) {
-    .warning {
-        display: none; 
-    }
-
-    .mobile-warning {
-        color: #ff0000; 
-        font-weight: bold; 
-        padding: 10px; 
-        margin-bottom: 20px; 
-    }
-}
